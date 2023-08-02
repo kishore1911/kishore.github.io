@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: color-mix(in hsl shorter hue, color percentage, color percentage);
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+.btn{
+    height: 25px;
+    width: 120px;
+    border-radius: 50px ;
+    background-color: aliceblue;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.ss{
+   border-radius: 21px; 
+   border: none;
+   height: 25px;
+   padding-left: 10px;
+   background-color: aqua;
+}
+.sk{
+    border-radius: 21px;
+    border: none;
+    height: 25px;
+    background-color: aqua;
+
+}
